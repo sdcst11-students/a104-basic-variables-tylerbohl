@@ -31,7 +31,8 @@ x contains an integer value
 y contains a float value
 and z contains a string literal
 
-x and y contain the same amount (exactly 3) but z contains a symbol that represents the number 3 but it doesn't equal 3.  It's like the contents of the variable a.  It contains the word 'three', but that's not really a value of 3
+x and y contain the same amount (exactly 3) but z contains a symbol that represents the number 3 but it doesn't equal 3.  
+It's like the contents of the variable a.  It contains the word 'three', but that's not really a value of 3
 
 When you run a program with a debugger, you can identify what kind of data is being stored by whether it contains:
 a decimal point (a float)
@@ -43,7 +44,9 @@ We will see later on that we can convert some data into different data types as 
 
 '''
 type()
-This command can help a program determine the type of data that a variable contains.  This is sometimes useful in helping us validate data before we do calculations.  You couldn't multiply 2 variables that are not some kind of number type, for example.
+This command can help a program determine the type of data that a variable contains.  This is sometimes useful in 
+helping us validate data before we do calculations.
+You couldn't multiply 2 variables that are not some kind of number type, for example.
 This command requires that you enter the variable that you want to find the type of inside the brackets.
 Note that the contents will not be displayed unless you print it, or store it in a variable and then print it.
 '''
